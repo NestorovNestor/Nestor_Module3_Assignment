@@ -1,0 +1,95 @@
+* {
+	font-family: 'Noto Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+/* HEADER */
+ 
+.navbar-default {
+  background-color: #969696;
+  border: 1px solid black;
+}
+
+.navbar-brand h1 {  /* Company Name */
+  font-size: 1.25em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus { /* Company Name */
+  text-decoration: none;
+}
+
+/* Navigation Button */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { 
+	border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle:hover {
+	background: #ffffff;
+}
+
+/* END navigation button */
+
+/* Navigation Menu */
+
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-collapse {
+	border-top: 0px;
+}
+#nav-list li {
+	border: 1px solid black;
+}
+#nav-list a {
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #8f8f8f;
+}
+#nav-list a span {
+	font-size: 1.3em;
+	color: black;
+}
+
+/* END Navigation Menu */
+
+/* END HEADER*/
+
+#page-title {
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-bottom: 30px;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+
+}
+
+div#main-content {
+	margin: 0px 20px 20px 20px;
+}
+
+div.menu-item-content {
+	min-height: 1000px;
+	background-color: #969696;
+}
+
+div.menu-item-title {
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+div.menu-item-content p {
+	padding: 0px 20px;
+}
